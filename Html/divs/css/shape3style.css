@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+    width: 406px;
+    text-align: center;
+}
+
+#firstcon {
+    display: flex;
+}
+
+#Box1 {
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 50%;
+    justify-items: center;
+    align-content: end;
+}
+
+#Box2 {
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 50%;
+    justify-items: center;
+    align-content: end;
+}
+
+#Box3 {
+    background-color: rgb(241, 33, 54);
+    height: 200px;
+    width: 406px;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 40%;
+}
+#eye{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    justify-items: center;
+    align-content: end;
+}
+#eye2{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
