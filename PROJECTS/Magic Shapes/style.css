@@ -24,7 +24,6 @@ body {
 .shape {
     width: 200px;
     height: 200px;
-    background-color: aliceblue;
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -35,11 +34,32 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#circle{
-    border-radius: 50%;
-    
+#diamond{
+    height: 200px;
+    width: 200px;
 }
 
-#kite{
-    motion-rotation: 45;
+#circle {
+    border-radius: 50%;
+}
+
+#square:hover {
+    background: #f26a6a;
+}
+
+#kite:hover {
+    background: #d7f26a;
+}
+
+#circle:hover {
+    background: #6af27e;
+}
+
+#kite {
+    margin-top: 50px;
+    rotate: 45deg;
+}
+
+#kite h1 {
+    rotate: -45deg;
 }
