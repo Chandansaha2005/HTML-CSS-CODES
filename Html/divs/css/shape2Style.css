@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+body {
+    background-color: rgb(234, 199, 154);
+    
+    
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(63, 44, 21);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#Box1 {
+    margin-top: 10px;
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(63, 44, 21);
+    border-radius: 50%;
+}
+#Box2 {
+    margin-top: 0px;
+    background-color: chocolate;
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(63, 44, 21);
+    border-radius: 50%;
+}
