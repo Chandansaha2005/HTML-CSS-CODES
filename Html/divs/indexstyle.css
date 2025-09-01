@@ -1,0 +1,21 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    
+    background-color: black;
+    color: antiquewhite;
+    width: 250px;
+    text-align: center;
+}
+
+body {
+    background-color: brown;
+    color: rgba(167, 167, 237, 0.728);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
