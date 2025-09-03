@@ -33,29 +33,30 @@ h1 {
     border-style: solid;
     border-width: 1px;
     border-radius: 20px;
-    /* top:38%;
+    top:38%;
     left: 38%;
-    transform: translate(-50% ,-40%); */
+    transform: translate(-50% ,-40%);
+    overflow: hidden;
 }
 
 #card1{
     z-index: 6;
-    rotate: 10deg;
+    rotate: -30deg;
     background-color: salmon;
 }
 #card2{
     z-index: 5;
-    rotate: 20deg;
+    rotate: -10deg;
     background-color: blueviolet;
 }
 #card3{
     z-index: 4;
-    rotate: 30deg;
+    rotate: 10deg;
     background-color: rgb(196, 250, 114);
 }
 #card4{
     z-index: 3;
-    rotate: 40deg;
+    rotate: 30deg;
     background-color: rgb(114, 250, 123);
 }
 #card5{
@@ -65,9 +66,45 @@ h1 {
 }
 #card6{
     z-index: 1;
-    rotate: 60deg;
+    rotate: 70deg;
     background-color: rgb(250, 114, 162);
 }
+#card7{
+    z-index: 0;
+    rotate: 90deg;
+    background-color: rgb(250, 114, 162);
+}
+#card2:hover{
+    z-index: 50;
+    rotate: -10deg;
+    background-color: blueviolet;
+}
+#card3:hover{
+    z-index: 40;
+    rotate: 10deg;
+    background-color: rgb(196, 250, 114);
+}
+#card4:hover{
+    z-index: 30;
+    rotate: 30deg;
+    background-color: rgb(114, 250, 123);
+}
+#card5:hover{
+    z-index: 20;
+    rotate: 50deg;
+    background-color: rgb(61, 29, 247);
+}
+#card6:hover{
+    z-index: 10;
+    rotate: 70deg;
+    background-color: rgb(250, 114, 162);
+}
+#card7:hover{
+    z-index: 10;
+    rotate: 90deg;
+    background-color: rgb(250, 114, 162);
+}
+
 img{
     width: 100%;
     height: 100%;
