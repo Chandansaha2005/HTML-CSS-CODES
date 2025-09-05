@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Layouts</title>
+</head>
+<body>
+  <!-- Basic Layout -->
+  <header>
+    <h1>Website Header</h1>
+  </header>
+
+  <main>
+    <h2>Main Content</h2>
+  </main>
+
+  <footer>
+    <p>Website Footer</p>
+  </footer>
+  <!-- Note: This is the simplest header-main-footer layout -->
+  <hr>
+
+  <!-- Layout with Navigation -->
+  <header>
+    <h1>Header</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">About</a> |
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Main Area</h2>
+  </main>
+  <footer>
+    <p>Footer</p>
+  </footer>
+  <!-- Note: This layout adds a <nav> for website navigation -->
+  <hr>
+
+  <!-- Layout with Sidebar -->
+  <header>
+    <h1>Header</h1>
+  </header>
+  <div style="display: flex;">
+    <aside style="background: lightgray; width: 30%; padding: 10px;">
+      Sidebar (Links, Menu, Ads)
+    </aside>
+    <section style="flex: 1; padding: 10px; background: #f0f0f0;">
+      Main Section
+    </section>
+  </div>
+  <footer>
+    <p>Footer</p>
+  </footer>
+  <!-- Note: This layout uses <aside> as a sidebar with <section> for content -->
+  <hr>
+
+  <!-- Grid Style Layout -->
+  <header>
+    <h1>Header</h1>
+  </header>
+  <div style="display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 10px;">
+    <nav style="background: lightblue; padding: 10px;">Nav</nav>
+    <main style="background: lightgreen; padding: 10px;">Main</main>
+    <aside style="background: lightpink; padding: 10px;">Aside</aside>
+  </div>
+  <footer>
+    <p>Footer</p>
+  </footer>
+  <!-- Note: This layout is built using CSS Grid -->
+</body>
+</html>
