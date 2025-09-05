@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      cursor: pointer;
+      flex-direction: column;
+    }h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+#main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  position: absolute;
+  top: 100%; /* start hidden below */
+  left: 50%;
+  width: 120px;
+  height: 180px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: translate(-50%, 0) rotate(0);
+  transition: all 3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.animate {
+  top: 50%;
+  opacity: 1;
+}
+
+  </style>
+</head><body>
+  <h1>AVENGERS CARDS</h1>  <div id="main">
+    <div id="card1" class="card">
+      <img src="../Avengers Cards/images/spiderman.jpg" alt="">
+    </div>
+    <div id="card2" class="card">
+      <img src="../Avengers Cards/images/hulk.jpg" alt="">
+    </div>
+    <div id="card3" class="card">
+      <img src="../Avengers Cards/images/ironman.jpg" alt="">
+    </div>
+    <div id="card7" class="card">
+      <img src="../Avengers Cards/images/thorpro.jpg" alt="">
+    </div>
+    <div id="card4" class="card">
+      <img src="../Avengers Cards/images/strange.jpg" alt="">
+    </div>
+    <div id="card5" class="card">
+      <img src="../Avengers Cards/images/spidy.jpg" alt="">
+    </div>
+    <div id="card6" class="card">
+      <img src="../Avengers Cards/images/thor.jpg" alt="">
+    </div>
+  </div>  <script>
+    let triggered = false;
+    document.body.addEventListener('click', () => {
+      if (triggered) return;
+      triggered = true;
+
+      const cards = document.querySelectorAll('.card');
+      const numCards = cards.length;
+      const spreadAngle = 100; // increased total fan angle for more tilt
+      const startAngle = -spreadAngle / 2;
+
+      cards.forEach((card, i) => {
+        const angle = startAngle + (spreadAngle / (numCards - 1)) * i;
+        const offset = i * 20; // overlap spacing
+
+        setTimeout(() => {
+          card.classList.add('animate');
+          card.style.transform = `translate(${offset - 50}%, -50%) rotate(${angle}deg)`;
+        }, 100);
+      });
+    });
+  </script></body></html>
