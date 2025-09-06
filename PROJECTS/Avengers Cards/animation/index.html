@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+  let triggered = false;
+  document.body.addEventListener('click', () => {
+    if (triggered) return;
+    triggered = true;
+
+    const cards = document.querySelectorAll('.card');
+    cards.forEach((card, i) => {
+      setTimeout(() => {
+        card.classList.remove('hidden');
+        card.classList.add('animate');
+      }, i * 200); // stagger delay
+    });
+  });
+</script>
+</head>a
+
+<body>
+
+    <h1>ANEVGERS CARDS</h1>
+    <div id="main">
+        <div id="card1" class="card hidden">
+            <img src="../images/spiderman.jpg" alt="">
+        </div>
+        <div id="card2" class="card hidden">
+            <img src="../images/hulk.jpg" alt="">
+        </div>
+        <div id="card3" class="card hidden">
+            <img src="../images/ironman.jpg" alt="">
+        </div>
+        <div id="card7" class="card hidden">
+            <img src="../images/thorpro.jpg" alt="">
+        </div>
+        <div id="card4" class="card hidden">
+            <img src="../images/strange.jpg" alt="">
+        </div>
+        <div id="card5" class="card hidden">
+            <img src="../images/spidy.jpg" alt="">
+        </div>
+        <div id="card6" class="card hidden">
+            <img src="../images/thor.jpg" alt="">
+        </div>
+        
+    </div>
+</body>
+
+
+
+</html>
