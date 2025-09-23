@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+</head>
+
+<body style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <!-- <table>
+        <caption>table caption</caption>
+        <tr>
+            <th>header1</th>
+            <th>header2</th>
+        </tr>
+        <tr>
+            <td>data1</td>
+            <td>data2</td>
+        </tr>
+    </table> -->
+    <table border="1px">
+        <caption>Food Menu</caption>
+        <tr style="background-color: aqua;">
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>cake</td>
+            <td>20/-</td>
+        </tr>
+        <tr>
+            <td>choco</td>
+            <td>40/-</td>
+        </tr>
+        <tr>
+            <td>pops</td>
+            <td>10/-</td>
+        </tr>
+    </table>
+    <!-- semantic tags -->
+    <table border="1px">
+        <caption>Food Menu</caption>
+        <thead>
+            <tr style="background-color: aqua;">
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cake</td>
+                <td>20/-</td>
+            </tr>
+            <tr>
+                <td>choco</td>
+                <td>40/-</td>
+            </tr>
+            <tr>
+                <td>pops</td>
+                <td>10/-</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>total=</td>
+                <td>70/-</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- colspan & rowspan -->
+    <table border="1px">
+        <caption>Food Menu</caption>
+        <thead style="background-color: aqua;">
+            <tr>
+                <th rowspan="2">item</th>
+                <th colspan="2">price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cake</td>
+                <td>20/-</td>
+                <td>0.12</td>
+
+            </tr>
+            <tr>
+                <td>choco</td>
+                <td>40/-</td>
+                <td>0.22</td>
+            </tr>
+            <tr>
+                <td>pops</td>
+                <td>10/-</td>
+                <td>0.6</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
