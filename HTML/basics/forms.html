@@ -8,9 +8,48 @@
 </head>
 
 <body>
-    <form action="action.pfp">
-        <input type="text" placeholder="Type your name">
-    </form>
+    <div>
+        <form action="action.pfp">
+            <h4>Enter you name and password</h4>
+            <input type="text" placeholder="Type your name">
+            <input type="password" placeholder="Type your name">
+            <br>
+            <h5>Select gender</h5>
+            <label for="12">
+                <input type="radio" value="male" name="gender" id="12">male
+            </label>
+            <label for="11">
+                <input type="radio" value="female" name="gender" id="11">female
+            </label>
+            <br>
+            <h4>Select Subject</h4>
+            <label for="MATH">
+                <input type="checkbox" value="MATH" name="subject" id="MATH">MATH
+            </label><br>
+            <label for="PHY">
+                <input type="checkbox" value="PHY" name="subject" id="PHY">PHY
+            </label><br>
+            <label for="CHEM">
+                <input type="checkbox" value="CHEM" name="subject" id="CHEM">CHEM
+            </label><br>
+            <label for="CS">
+                <input type="checkbox" value="CS" name="subject" id="CS">CS
+            </label>
+            <br>
+            <h5>Select city</h5>
+            <br>
+            <select name="city" id="city">
+                <option value="kolkata">kolkata</option>
+                <option value="delhi">delhi</option>
+                <option value="mumbai">mumbai</option>
+                <option value="pune">pune</option>
+            </select>
+            <br>
+            <textarea name="feedback" id="feed" placeholder="Enter your thoughts" rows="5" cols="50"></textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
 </body>
 
 </html>
