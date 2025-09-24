@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <form action="/backend">
+        <input> <br><br>
+        <input type="text" name="textinput" id="txt" placeholder="Enter Your Name"><br><br>
+        <input type="password" name="passwordinput" id="pwd" placeholder="Enter Your Password"><br><br>
+        <input type="number" name="numinput" id="num" placeholder="Enter Your Phone No."><br><br>
+        <input type="email" name="emailinput" id="email" placeholder="Enter Your Email"><br><br>
+        <input type="time" name="timeinput" id="time" placeholder="Enter Current Time"><br><br>
+        <input type="color" name="colorinput" id="color" placeholder="Select Your Fav Color"><br><br>
+        <!-- labels -->
+        <label>
+            Full Name:
+            <input type="text" name="textinput" id="txt" placeholder="Enter Your Full Name:"><br><br>
+        </label>
+        <label>
+            Password:
+            <input type="password" name="passwordinput" id="pwd" placeholder="Enter Your Password"><br><br>
+        </label>
+        <label for="txt2">
+            Full Name:</label>
+        <input type="text" name="textinput" id="txt2" placeholder="Enter Your Full Name:"><br><br>
+        <label for="pwd2">
+            Password:</label>
+        <input type="password" name="passwordinput" id="pwd2" placeholder="Enter Your Password"><br><br>
+        <!-- buttons -->
+        <!-- button elements -->
+        <button>Submit</button><br>
+        <button type="submit">Submit</button><br>
+        <button type="button">Do Something</button><br>
+        <button type="reset">Do Reset</button><br><br>
+        <!-- input Element -->
+        <input type="button" value="Click Me">
+        <input type="submit" value="Click To Submit"><!--We are not gonna use input tag to make buttons -->
+    </form>
+    <!-- Names -->
+    <hr>
+    <form action="/backend">
+        <input type="text" name="UserName" id="user" placeholder="UserName">
+        <button type="submit">Submit</button>
+        <!-- http://127.0.0.1:5500/backend?******UserName=chandan**** --><br>
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results?search_query=pather+panchali">
+        <input type="text" name="search_query" id="youtubesearch" placeholder="Search On Youtube">
+        <button type="submit">Search</button>
+    </form>
+</body>
+
+</html>
