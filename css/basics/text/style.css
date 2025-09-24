@@ -1,12 +1,41 @@
-h1{
+h1 {
     text-align: center;
+    text-decoration: underline;
+    text-decoration: red underline;
+    text-decoration: red wavy underline;
+    font-size: 50px;
+    font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-h3{
+
+h3 {
     text-align: right;
+    font-weight: lighter;
+    text-decoration: line-through;
+    text-decoration: green line-through;
+    text-decoration: green double line-through;
+    font-size: 25px;
+    
 }
-h2{
+
+h2 {
     text-align: left;
+    font-weight: 300;
+    text-decoration: overline;
+    letter-spacing: 5px;
+    font-size: 25px;
 }
-p{
+
+p {
     text-align: end;
+    font-weight: 400;
+    line-height: .9;
+    letter-spacing: 1.5px;
+    font-size: larger;
+    font-size: small;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: lightcoral;
 }
