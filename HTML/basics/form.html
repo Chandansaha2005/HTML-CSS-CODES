@@ -15,6 +15,7 @@
         <input type="number" name="numinput" id="num" placeholder="Enter Your Phone No."><br><br>
         <input type="email" name="emailinput" id="email" placeholder="Enter Your Email"><br><br>
         <input type="time" name="timeinput" id="time" placeholder="Enter Current Time"><br><br>
+        <input type="date" name="dateinput" id="date" placeholder="Enter date"><br><br>
         <input type="color" name="colorinput" id="color" placeholder="Select Your Fav Color"><br><br>
         <hr>
         <!-- labels -->
@@ -81,7 +82,25 @@
     </form>
     <hr>
     <!-- dropdown -->
-     <form action=""></form>
+    <form action="/backend">
+        <label for="city">Select Your City</label>
+        <select name="city" id="city">
+            <option value="kol" selected>kolkata</option>
+            <option value="mum">mumbai</option>
+            <option value="del">delhi</option>
+            <option value="pun">pune</option>
+            <option value="pat">patna</option>
+        </select><br>
+        <!-- range -->
+        <label for="package">Select Your Package Range</label>
+        <input type="range" name="pack" id="package" min="10000" max="50000" value="20000"><br>
+        <label for="vol">Select Your Volume Range</label>
+        <input type="range" name="volume" id="vol" min="0" max="100" step="10" value="10"><br>
+        <!-- text area -->
+        <label for="feedback">Share Your Thoughts:</label><br>
+        <textarea name="feedback" id="feedback" placeholder="Enter here" rows="10" cols="50"></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 
 </html>
