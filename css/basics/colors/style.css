@@ -1,0 +1,15 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+p {
+    color: green;
+}
+button{
+    background-color: bisque;
+    color: brown;
+}
