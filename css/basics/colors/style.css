@@ -4,12 +4,15 @@ body {
 
 h1 {
     color: blueviolet;
+    background-color: beige;
 }
 
 p {
-    color: green;
+    background-color: crimson;
+    color: white;
 }
-button{
+
+button {
     background-color: bisque;
     color: brown;
 }
