@@ -22,7 +22,50 @@
         <input type="checkbox" name="terms" id="terms" name="agree"><label for="terms">Yes, I agree</label><br>
         <button type="submit">Register</button>
     </form>
-
+    <hr>
+    <form action="/backend">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label>Sex:</label>
+        <input type="radio" name="sex" id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="sex" id="Female">
+        <label for="Female">Female</label><br><br>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="None" selected>Select An Option</option>
+            <option value="India">India</option>
+            <option value="pakstan">pakstan</option>
+            <option value="dubai">dubai</option>
+            <option value="moscow">moscow</option>
+        </select><br><br>
+        <label for="mass">Massage:</label><br>
+        <textarea name="mass" id="mass" rows="4" cols="20"></textarea><br><br>
+        <input type="checkbox" name="sub" id="sub"><label for="sub">Subscribe?</label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <form action="/backend">
+        <h1>Feedback Form</h1>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Write Your name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Write Your email"><br><br>
+        <label for="mass">Massage:</label><br>
+        <textarea name="mass" id="mass" rows="4" cols="30"></textarea><br><br>
+        <label>Rate us out of 5:</label><br>
+        <input type="radio" name="rate" id="rate1">
+        <label for="rate1">1</label><br>
+        <input type="radio" name="rate" id="rate2">
+        <label for="rate2">2</label><br>
+        <input type="radio" name="rate" id="rate3">
+        <label for="rate3">3</label><br>
+        <input type="radio" name="rate" id="rate4">
+        <label for="rate4">4</label><br>
+        <input type="radio" name="rate" id="rate5">
+        <label for="rate5">5</label><br><br>
+        <button type="submit">Send your message!</button>
+    </form>
 </body>
 
 </html>
