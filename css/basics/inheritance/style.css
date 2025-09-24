@@ -1,0 +1,19 @@
+div {
+    background-color: rgb(235, 121, 121);
+}
+
+p {
+    background-color: bisque;
+}
+
+body {
+    background: blue;
+}
+
+button {
+    background-color: inherit;
+}
+
+input {
+    background-color: inherit;
+}
