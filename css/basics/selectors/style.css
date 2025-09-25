@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+}
+
+#mainTopic {
+    color: blue;
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: purple;
+    color: azure;
+}
+
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+#p1,
+#p3 {
+    color: yellow;
+}
+
+#yes:on{
+    color: green;
+}
