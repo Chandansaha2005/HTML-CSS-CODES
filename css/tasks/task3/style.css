@@ -1,4 +1,6 @@
+
 h1{
+    align-self: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffa511;
     text-align: center;
@@ -8,4 +10,11 @@ h1{
     line-height: 1.5px;
     text-decoration: teal double underline;
     text-transform: uppercase;
+}
+
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
 }

@@ -25,11 +25,15 @@ button:hover {
     color: blue;
 }
 
-#p1,
+/* #p1,
 #p3 {
+    color: yellow;
+} */
+
+p:nth-of-type(n) {
     color: yellow;
 }
 
-#yes:on{
+#yes:checked+label{
     color: green;
 }
