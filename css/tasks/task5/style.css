@@ -1,0 +1,30 @@
+#mainbox {
+    height: 285px;
+    width: 100px;
+    background-color: white;
+    border-color: black;
+    border-style: inset;
+    border-width: 5px;
+}
+
+#red,
+#green,
+#yellow {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
