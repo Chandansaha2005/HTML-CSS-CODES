@@ -10,8 +10,36 @@ div {
     border-bottom: 5px dotted blue;
     border-left: 5px dashed red;
     border-right: 5px groove red;
+    border-radius: 10px;
+    /* border-radius: 50%; */
+    padding: 10px;
+
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin: 10px 30px;
+    margin: 10px 30px 10px;
+    margin: 10px 30px 20px 10px;
+
 }
 
 h1 {
     border: 2px dotted green;
+}
+button{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: aquamarine;
+    border-radius: 50px;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 10px 20px;
+    padding: 10px 30px 10px;
+    padding: 10px 20px 10px 20px;
 }
