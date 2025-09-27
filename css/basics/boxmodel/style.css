@@ -1,0 +1,17 @@
+div {
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid black;
+    border-top: 5px solid olive;
+    border-bottom: 5px dotted blue;
+    border-left: 5px dashed red;
+    border-right: 5px groove red;
+}
+
+h1 {
+    border: 2px dotted green;
+}
