@@ -1,0 +1,15 @@
+#box{
+    background-color: rgb(220, 107, 47);
+    height: 200px;
+    width: 400px;
+    transition: 0.5s;
+    transition-timing-function:linear;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+#box:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+    width: 200px;
+}
