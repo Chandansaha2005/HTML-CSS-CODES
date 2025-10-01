@@ -37,6 +37,14 @@ div {
     box-shadow: 6px 6px 15px rgb(199, 81, 199);
     cursor:grab;
 }
+#pip1:hover{
+    background-image:url("https://media1.tenor.com/m/r_CRVf3xUSQAAAAC/hulk-smash.gif");
+    background-size: cover;
+}
+#pip2:hover{
+    background-image:url("https://media.tenor.com/2YGZIffXowIAAAAM/spider-man-thumbs-up.gif");
+    background-size: cover;
+}
 h1{
     transform: translateY(-20px);
 }
