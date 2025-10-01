@@ -6,3 +6,11 @@
     box-shadow: 5px 5px 20px rgb(70, 12, 12);
     border-radius: 40px;
 }
+
+#bg {
+    height: 600px;
+    width: 600px;
+    margin: 50px auto;
+    background-image: url("octocat.png");
+    background-size: cover;
+}
