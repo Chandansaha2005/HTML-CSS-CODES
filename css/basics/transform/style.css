@@ -1,0 +1,44 @@
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 80px;
+    border: 2px black solid;
+    margin: 10px;
+    background-color: blue;
+    text-align-last: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    display: inline-block;
+}
+
+div:nth-of-type(2n) {
+    background-color: aqua;
+}
+
+div:nth-of-type(3n) {
+    background-color: aquamarine;
+}
+
+#box1{
+    transform: rotate(15deg);
+}
+#box2{
+    transform: rotate(30deg);
+}
+#box3{
+    transform: rotate(45deg);
+}
+#box4{
+    transform: rotate(60deg);
+}
+#box5{
+    transform: rotate(75deg);
+}
+#box6{
+    transform: rotate(90deg);
+}
+
