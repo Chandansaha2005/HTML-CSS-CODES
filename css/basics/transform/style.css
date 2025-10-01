@@ -23,6 +23,7 @@ div:nth-of-type(3n) {
     background-color: aquamarine;
 }
 
+/* ROTATE */
 #box1 {
     transform: rotate(15deg);
 }
@@ -46,8 +47,30 @@ div:nth-of-type(3n) {
 #box6 {
     transform: rotate(90deg);
 }
+
+/* SCALE */
 #box7 {
     margin: 100px 150px 10px;
-    transform:scale(1.5,2.5);
+    transform: scale(1.5, 2.5);
+    /* transform: scale(X axis, Y axis); */
+
 }
 
+/* TRANSLATE */
+#box8 {
+    transform: translate(10px, 100px);
+    /* transform: translate(X axis,Y axis); */
+}
+
+/* SKEW */
+#box9 {
+    transform: skew(30deg);
+}
+
+#box10 {
+    transform: skew(-30deg);
+}
+
+#box11 {
+    transform: skew(109deg);
+}
