@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(221, 160, 221);
+}
+
+div {
+    background-color: rgba(198, 244, 198, 0.3);
+    height: 500px;
+    width: 340px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    border: .2px solid rgba(250, 202, 202, 0.862);
+    box-shadow: 5px 5px 10px rgb(199, 81, 199);
+    transition: .8s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.pip {
+    height: 400px;
+    width: 300px;
+    box-shadow: none;
+}
+
+#pip1 {
+    background-image: url("hulk.jpg");
+    background-size: cover;
+}
+
+#pip2 {
+    background-image: url("spidy.jpg");
+    background-size: cover;
+}
+
+.outer:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 15px rgb(199, 81, 199);
+    cursor:grab;
+}
+h1{
+    transform: translateY(-20px);
+}
