@@ -3,9 +3,9 @@ body {
 }
 
 #container {
-    height: 400px;
+    height: 800px;
     width: 80%;
-    background-color: rgb(13, 230, 230);
+    background-color: rgb(126, 228, 228);
     margin: 10px auto;
     border: 2px black solid;
     display: flex;
@@ -13,6 +13,12 @@ body {
     flex-direction: row-reverse;
     flex-direction: column;
     flex-direction: column-reverse;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 h1 {
@@ -20,10 +26,11 @@ h1 {
 }
 
 #container div {
-    height: 100px;
-    width: 300px;
+    height: 80px;
+    width: 100px;
     font-size: 20px;
     color: rgb(0, 0, 0);
     text-align: center;
     align-content: center;
+    border-radius: 5px;
 }
