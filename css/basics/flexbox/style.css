@@ -10,15 +10,19 @@ body {
     border: 2px black solid;
     display: flex;
     flex-direction: row;
-    flex-direction: row-reverse;
-    flex-direction: column;
-    flex-direction: column-reverse;
+    /* flex-direction: row-reverse;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse;  */
     justify-content: flex-start;
-    justify-content: flex-end;
-    justify-content: center;
-    justify-content: space-between;
+    /* justify-content: flex-end; */
+    /*justify-content: center; */
+    /* justify-content: space-between;
     justify-content: space-evenly;
-    justify-content: space-around;
+    justify-content: space-around; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    justify-items: center;
 }
 
 h1 {
@@ -26,8 +30,8 @@ h1 {
 }
 
 #container div {
-    height: 80px;
-    width: 100px;
+    height: 100px;
+    width: 300px;
     font-size: 20px;
     color: rgb(0, 0, 0);
     text-align: center;
