@@ -9,14 +9,17 @@ body {
     margin: 10px auto;
     border: 2px black solid;
     display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
     flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 h1 {
     text-align: center;
 }
 
-#container div{
+#container div {
     height: 100px;
     width: 300px;
     font-size: 20px;
