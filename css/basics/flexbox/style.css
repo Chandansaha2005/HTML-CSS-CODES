@@ -9,7 +9,7 @@ body {
     margin: 10px auto;
     border: 2px black solid;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* flex-direction: row-reverse;
     /* flex-direction: column; */
     /* flex-direction: column-reverse;  */
@@ -37,4 +37,7 @@ h1 {
     text-align: center;
     align-content: center;
     border-radius: 5px;
+}
+#grn{
+    flex-basis: 170px;
 }
