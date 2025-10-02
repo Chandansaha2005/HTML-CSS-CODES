@@ -46,5 +46,14 @@ div {
     background-size: cover;
 }
 h1{
-    transform: translateY(-20px);
+    
+    transform: translatey(-35px);
+    font-size: 40px;
+}
+
+#hulk{
+    color: darkgreen;
+}
+#spidy{
+    color: rgb(159, 5, 23);
 }

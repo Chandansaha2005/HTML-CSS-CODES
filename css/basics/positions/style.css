@@ -1,0 +1,54 @@
+section {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+    text-transform: uppercase;
+    height: 100px;
+    width: 100px;
+    border: 1px rgb(255, 171, 171) solid;
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    background-color: blueviolet;
+}
+
+/* static */
+#static {
+    /* position: static; */
+    background-color: rgb(43, 226, 92);
+    top: 10px;
+    left: 200px;
+}
+
+/* relative */
+#relative {
+    position: relative;
+    background-color: rgb(43, 226, 92);
+    bottom: 80px;
+    left: 200px;
+}
+
+/* absolute */
+#absolute {
+    position: absolute;
+    background-color: rgb(43, 226, 92);
+    top: 450px;
+    left: 600px;
+}
+
+/* fixed */
+#fixed {
+    position: fixed;
+    background-color: rgb(43, 226, 92);
+    top: 600px;
+    left: 300px;
+}
+
+/* sticky */
+#sticky {
+    position:sticky;
+    background-color: rgb(43, 226, 92);
+    top: 100px;
+}
