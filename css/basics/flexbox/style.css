@@ -1,0 +1,26 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container {
+    height: 400px;
+    width: 80%;
+    background-color: rgb(13, 230, 230);
+    margin: 10px auto;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-content: center;
+}
