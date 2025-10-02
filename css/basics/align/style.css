@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container {
+    height: 800px;
+    width: 80%;
+    background-color: rgb(126, 228, 228);
+    margin: 10px auto;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+}
