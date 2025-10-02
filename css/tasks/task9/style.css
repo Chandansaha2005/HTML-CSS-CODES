@@ -1,0 +1,44 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#container {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid cyan;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    background-color: rgb(5, 43, 216);
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+#navbar {
+    height: 50px;
+    width: 900px;
+    background-color: plum;
+    border: 2px pink solid;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.options {
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 10px;
+    align-content: center;
+}
+
